@@ -19,18 +19,18 @@
                 <div class="col-span-1 m-col-span-1 l-col-start-1 l-col-end-2 xl-col-start-1 xl-col-end-2">
                     <img src="images/final.svg" alt="Zima logo">
                 </div>
-                <nav class="col-start-5 col-end-5" id="hide-m">
+                <nav class="col-start-5 col-end-5 hide-m">
                     <span class="burger"></span>
                     <span class="burger"></span>
                     <span class="burger"></span>
                 </nav>
-                <nav class="m-col-start-3 m-col-end-12" id="hide-t">
+                <nav class="m-col-start-3 m-col-end-12 hide-t">
                     <a href="index.html">Home</a>
                     <a href="recipes.html">Recipes</a>
                     <a href="contact.html">Contact</a>
                     <a href="aboutus.html">About Us</a>
                 </nav>
-                <nav class="l-col-start-4 l-col-end-12 xl-col-start-4 xl-col-end-12" id="hide-d">
+                <nav class="l-col-start-4 l-col-end-12 xl-col-start-4 xl-col-end-12 hide-d">
                     <a href="index.html">Home</a>
                     <a href="recipes.html">Recipes</a>
                     <a href="contact.html">Contact</a>
@@ -41,16 +41,69 @@
 
         <section class="full-width-grid-con">
             <h2 class="hidden"> placeholder hero img</h2>
-            <div class="col-span-4" id="hide-m"> <img src="https://dummyimage.com/767x400/b0b0b0/000000" alt="placeholder img"></div>
-            <div class="m-col-span-12" id="hide-t"> <img src="https://dummyimage.com/1200x500/b0b0b0/000000" alt="placeholder img"></div>
-            <div class="l-col-span-12 xl-col-span-12" id="hide-d"> <img src="https://dummyimage.com/1920x600/b0b0b0/000000" alt="placeholder img"></div>
+            <div class="col-span-4 hide-m"> <img src="https://dummyimage.com/767x400/b0b0b0/000000" alt="placeholder img"></div>
+            <div class="m-col-span-12 hide-t"> <img src="https://dummyimage.com/1200x500/b0b0b0/000000" alt="placeholder img"></div>
+            <div class="l-col-span-12 xl-col-span-12 hide-d"> <img src="https://dummyimage.com/1920x600/b0b0b0/000000" alt="placeholder img"></div>
         </section>
 
-        <section class="full-width-grid-con" id="hide-m">
+        <section>
+            <div class="col-span-2 hide-m">
+                <h2 class="hidden">Contact Information</h2>
+                <p id="m-box1"> Text us at <br> 123-456-7890 Message and Data rates may apply <br>
+                    <button> Text us </button>
+                </p>
+                <p id="m-box2"> Chat with a specialist <br> Available 8am-8pm EST, 7 days a week <br>
+                    <button> Chat now </button>
+                </p>
+                <p id="m-box3"> Call us at 123-456-7890 <br> Available 8am-8pm EST, 7 days a week<br>
+                    <button> Call us </button>
+                </p>
+                <p id="m-box4"> Send us an email <br> We'd love to hear from you! <br>
+                    <button> Email us </button>
+                </p>
+            </div>
+        </section> 
+
+        <section class="grid-con">
+            <div class="m-col-span-12 hide-t" style="width: 100%;">
+                <h2 class="hidden">Contact Information</h2>
+                <p id="t-box1"> Text us at 123-456-7890 <br> Message and Data rates may apply<br>
+                    <button> Text us </button>
+                </p>
+                <p id="t-box2"> Chat with a specialist <br> Available 8am-8pm EST, 7 days a week <br>
+                    <button> Chat now </button>
+                </p>
+                <p id="t-box3"> Call us at 123-456-7890 <br> Available 8am-8pm EST, 7 days a week<br>
+                    <button> Call us </button>
+                </p>
+                <p id="t-box4"> Send us an email <br> We'd love to hear from you! <br>
+                    <button> Email us </button>
+                </p>
+            </div>
+        </section> 
+
+        <section class="grid-con hide-d d-bgcolor">
+            <div class="l-col-span-12 xl-col-span-12 hide-d" id="contact">
+                <h2 class="hidden">Contact Information</h2>
+                <p id="d-box1"> Text us at 123-456-7890 <br> Message and Data rates may apply
+                </p>
+                <p id="d-box2"> Chat with a specialist <br> Available 8am-8pm EST everyday!<br>
+                    <button id="chat"> Chat now </button>
+                </p>
+                <p id="d-box3"> Call us at 123-456-7890 <br> Available 8am-8pm EST everyday!<br>
+                    <button id="call"> Call us </button>
+                </p>
+                <p id="d-box4"> Send us an email <br> We'd love to hear from you! <br>
+                    <button id="email"> Email us </button>
+                </p>
+            </div>
+        </section> 
+
+        <section class="full-width-grid-con hide-m">
             <h2 class="hidden"> CONTACT BOX</h2>
-                <div class="col-span-4" id="bgimage">
+                <div class="col-span-4 hide-m">
                     <p id="m-contactus"> CONTACT US </p>
-                        <section class="grid-con" id="hide-m">
+                        <section class="grid-con hide-m">
                             <div class="col-span-4" id="mc-contactbox">
                                 <h2> Get in touch! </h2>
                                 <input placeholder="Name" id="mc-name">
@@ -62,41 +115,76 @@
                 </div>
         </section>
 
-        <section class="full-width-grid-con" id="hide-t">
-            <h2 class="hidden"> CONTACT BOX</h2>
-            <div class="col-span-4" id="bgimage">
+        <section class="full-width-grid-con hide-t">
+            <h2 class="hidden" > CONTACT BOX</h2>
+            <div class="m-col-span-6 hide-t">
                 <p id="m-contactus"> CONTACT US </p>
-                    <section class="grid-con" id="hide-m">
-                        <div class="col-span-4" id="mc-contactbox">
+                    <section class="grid-con hide-m">
+                        <div class="m-col-start-1 m-col-end-13" id="mc-contactbox">
                             <h2> Get in touch! </h2>
                             <input placeholder="Name" id="mc-name">
                             <input placeholder="Email" id="mc-email">
                             <input placeholder="Type your message here" id="mc-message">
-                            <button id="mc-submit"> Submit </button>
+                            <button id="mc-submit"><b> Submit </b></button>
                         </div>
                     </section> 
             </div>
     </section>
 
-    <section class="full-width-grid-con" id="hide-d">
-        <h2 class="hidden"> CONTACT BOX</h2>
-        <div class="col-span-4" id="bgimage">
-            <p id="m-contactus"> CONTACT US </p>
-                <section class="grid-con" id="hide-m">
-                    <div class="col-span-4" id="mc-contactbox">
-                        <h2> Get in touch! </h2>
-                        <input placeholder="Name" id="mc-name">
-                        <input placeholder="Email" id="mc-email">
-                        <input placeholder="Type your message here" id="mc-message">
-                        <button id="mc-submit"> Submit </button>
+    <section>
+        <h2 class="hidden">CONTACT US</h2>
+        <div class="background hide-d d-bgcolor">
+            <div class="container">
+                <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                    <div class="screen-header-button close"></div>
+                    <div class="screen-header-button maximize"></div>
+                    <div class="screen-header-button minimize"></div>
                     </div>
-                </section> 
+                    <div class="screen-header-right">
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                    <div class="app-title">
+                        <span>CONTACT</span>
+                        <span>US</span>
+                    </div>
+                    <div class="app-contact">CONTACT INFO : 123 456 7890</div>
+                    </div>
+                    <div class="screen-body-item">
+                    <div class="app-form">
+                        <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME">
+                        </div>
+                        <div class="app-form-group">
+                        <input class="app-form-control" placeholder="EMAIL">
+                        </div>
+                        <div class="app-form-group">
+                        <input class="app-form-control" placeholder="CONTACT NO">
+                        </div>
+                        <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="MESSAGE">
+                        </div>
+                        <div class="app-form-group buttons">
+                        <button class="app-form-button">CANCEL</button>
+                        <button class="app-form-button">SEND</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
-</section>
+    </section>
 
-        <section class="grid-con" id="hide-m">
+        <section class="grid-con hide-d d-bgcolor">
             <h2 class="hidden"> SOCIAL MEDIA </h2>
-            <div class="col-span-4" id="flex">
+            <div class="col-span-4 m-col-start-4 m-col-end-10 hide-d" id="flex">
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-instagram"></a>
@@ -104,90 +192,72 @@
             </div>
         </section>
 
-        <section class="grid-con" id="hide-t">
-            <h2 class="hidden"> SOCIAL MEDIA </h2>
-            <div class="col-span-4" id="flex">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-snapchat-ghost"></a>
-            </div>
-        </section>
-
-        <section class="grid-con" id="hide-d">
-            <h2 class="hidden"> SOCIAL MEDIA </h2>
-            <div class="col-span-4" id="flex">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-snapchat-ghost"></a>
-            </div>
-        </section>
-
-        <footer class="grid-con" id="hide-m">
+        <footer class="grid-con">
             <h2 class="hidden">Footer</h2>
-            <div class="col-span-1" id="m-pages">
+            <div class="col-span-1 hide-m" id="m-pages">
                 <p><b> PAGES </b></p>
                 <a href="#">HOME </a>
                 <br><a href="#">RECIPES </a>
                 <br><a href="#">CONTACT </a>
                 <br><a href="#">ABOUT US </a>
             </div>
-            <div class="col-start-3" id="m-care">
+            <div class="col-start-3 hide-m" id="m-care">
                 <p><b> CUSTOMER CARE </b></p>
                 <a href="#"> FAQ </a>
                 <br><a href="#"> HELP </a>
                 <br><a href="#"> REVIEWS </a>
                 <br><a href="#"> RETURNS & EXCHANGES </a>
             </div>
-            <div class="col-span-2" id="m-privacy">
+            <div class="col-span-2 hide-m" id="m-privacy">
                 <p><b> PRIVACY </b></p>
                 <a href="#">TERMS & CONDITIONS </a>
                 <br><a href="#">PRIVACY POLICY </a>
             </div>
         </footer>
-        <footer class="grid-con" id="hide-t">
+
+        <footer class="grid-con">
             <h2 class="hidden">Footer</h2>
-            <div class="m-col-span-2" id="t-pages">
+            <div class="m-col-span-2 hide-t" id="t-pages">
                 <p><b> PAGES </b></p>
                 <a href="#">HOME </a>
                 <br><a href="#">RECIPES </a>
                 <br><a href="#">CONTACT </a>
                 <br><a href="#">ABOUT US </a>
             </div>
-            <div class="m-col-start-5 m-col-end-10" id="t-care">
+            <div class="m-col-start-5 m-col-end-10 hide-t" id="t-care">
                 <p><b> CUSTOMER CARE </b></p>
                 <a href="#"> FAQ </a>
                 <br><a href="#"> HELP </a>
                 <br><a href="#"> REVIEWS </a>
                 <br><a href="#"> RETURNS & EXCHANGES </a>
             </div>
-            <div class="m-col-span-2" id="t-privacy">
+            <div class="m-col-span-2 hide-t" id="t-privacy">
                 <p><b> PRIVACY </b></p>
                 <a href="#">TERMS & CONDITIONS </a>
                 <br><a href="#">PRIVACY POLICY </a>
             </div>
         </footer>
-        <footer class="grid-con" id="hide-d">
+
+        <footer class="grid-con hide-d">
             <h2 class="hidden">Footer</h2>
-            <div class="l-col-span-2" id="d-pages">
+            <div class="l-col-span-1 xl-col-span-4 hide-d" id="d-pages">
                 <p><b> PAGES </b></p>
                 <a href="#">HOME </a>
-                <br><a href="#">RECIPES </a>
-                <br><a href="#">CONTACT </a>
-                <br><a href="#">ABOUT US </a>
+                <a href="#">RECIPES </a>
+                <a href="#">CONTACT </a>
+                <a href="#">ABOUT US </a>
             </div>
-            <div class="l-col-start-5 l-col-end-10 xl-col-start-5 xl-col-end-10" id="d-care">
+            <div class="l-col-start-5 l-col-end-10 xl-col-start-5 xl-col-end-10 hide-d" id="d-care">
                 <p><b> CUSTOMER CARE </b></p>
                 <a href="#"> FAQ </a>
-                <br><a href="#"> HELP </a>
-                <br><a href="#"> REVIEWS </a>
-                <br><a href="#"> RETURNS & EXCHANGES </a>
+                <a href="#"> HELP </a>
+                <a href="#"> REVIEWS </a>
+                <a href="#"> RETURNS & EXCHANGES </a>
             </div>
-            <div class="l-col-span-2" id="d-privacy">
+            <div class="l-col-span-2 xl-col-span-2 hide-d" id="d-privacy">
                 <p><b> PRIVACY </b></p>
                 <a href="#">TERMS & CONDITIONS </a>
-                <br><a href="#">PRIVACY POLICY </a>
+                <a href="#">PRIVACY POLICY </a>
             </div>
         </footer>
 
